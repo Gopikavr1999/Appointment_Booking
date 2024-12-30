@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Plugin</title>
+    <script src="appointment-plugin.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="appointment-container"></div>
+    <script>
+        const plugin = AppointmentPlugin('http://localhost:3000');
+        plugin.render('#appointment-container');
+    </script>
+</body>
+</html>

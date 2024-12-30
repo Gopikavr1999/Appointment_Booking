@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Appointment Plugin Container */
+.appointment-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Date and Slot Button Container */
+.date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #a943d8;
+    outline: none;
+}
+
+.button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button.primary {
+    background-color: #a943d8;
+    color: white;
+}
+
+.button.primary:hover {
+    background-color:#a943d8;
+}
+
+.button.secondary {
+    background-color: #28a745;
+    color: white;
+}
+
+.button.secondary:hover {
+    background-color: #218838;
+}
+
+/* Slot Buttons */
+.slots-container {
+    margin-top: 20px;
+}
+
+.slot-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slot-button:hover {
+    background-color: #a943d8;
+    color: white;
+}
+
+.slot-button:focus {
+    outline: none;
+    border-color: #a943d8;
+}
+
+/* Booking Form */
+.booking-form {
+    margin-top: 30px;
+    display: none;
+}
+
+.booking-form .input-field {
+    margin-bottom: 10px;
+}
+
